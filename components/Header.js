@@ -6,7 +6,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const ToggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((oldState) => !oldState);
   };
   const CloseMenu = () => {
     setIsOpen(false);
@@ -50,7 +50,7 @@ export default function Header() {
             >
               <IoIosCloseCircle
                 className={`${
-                  isOpen ? `relative -right-3/4 z-10 cursor-pointer` : `hidden`
+                  isOpen ? `absolute right-4 z-10 cursor-pointer` : `hidden`
                 }`}
                 size={42}
                 color="#F23A3A"
