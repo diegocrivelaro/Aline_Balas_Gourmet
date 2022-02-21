@@ -50,7 +50,7 @@ export default function Header() {
             >
               <IoIosCloseCircle
                 className={`${
-                  isOpen ? `absolute right-4 z-10 cursor-pointer` : `hidden`
+                  isOpen ? `absolute right-10 z-10 cursor-pointer` : `hidden`
                 }`}
                 size={42}
                 color="#F23A3A"
