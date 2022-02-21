@@ -1,6 +1,7 @@
 {
   "name": "Aline Balas Gourmet",
   "short_name": "Aline Balas Gourmet",
+  "lang": "pt-BR",
   "theme_color": "#FFF9EF",
   "background_color": "#FFF9EF",
   "display": "standalone",
