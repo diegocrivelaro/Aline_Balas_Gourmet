@@ -12,6 +12,9 @@ export default function Header() {
     setIsOpen(false);
   };
 
+  /*
+    Close menu when screen width exceeds 768px
+  */
   if (typeof window !== 'undefined') {
     window.addEventListener('resize', () => {
       if (window.innerWidth >= 768) {
