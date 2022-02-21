@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     colors: {
+      black: {
+        default: "#000",
+      },
       brown: {
         200: "#FFF9EF",
         600: "#80470F",
