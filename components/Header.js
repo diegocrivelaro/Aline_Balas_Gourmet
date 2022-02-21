@@ -6,12 +6,15 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const ToggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((oldState) => !oldState);
   };
   const CloseMenu = () => {
     setIsOpen(false);
   };
 
+  /*
+    Close menu when screen width exceeds 768px
+  */
   if (typeof window !== 'undefined') {
     window.addEventListener('resize', () => {
       if (window.innerWidth >= 768) {
@@ -26,7 +29,7 @@ export default function Header() {
         <div className="container mx-auto px-8 md:px-4 lg:px-0 h-72 flex justify-between items-center">
           <nav>
             <a
-              className="font-dancingscript text-24 md:text-28 lg:text-32 font-bold text-red-400"
+              className="font-dancingscript text-24 select-none md:text-28 lg:text-32 font-bold text-red-400"
               href="#"
             >
               Aline Balas Gourmet
@@ -34,6 +37,16 @@ export default function Header() {
           </nav>
 
           <div>
+            {/* TRANSPARENT BLACK BACKGROUND  */}
+            <div
+              className={`${
+                isOpen
+                  ? `w-screen h-screen absolute left-0 top-0 z-0 bg-black-default backdrop-blur-2 bg-opacity-50`
+                  : `hidden`
+              }`}
+            ></div>
+            {/* /TRANSPARENT BLACK BACKGROUND  */}
+
             <FiMenu
               className="inline-block cursor-pointer md:hidden"
               size={24}
@@ -50,7 +63,7 @@ export default function Header() {
             >
               <IoIosCloseCircle
                 className={`${
-                  isOpen ? `relative -right-3/4 z-10 cursor-pointer` : `hidden`
+                  isOpen ? `absolute right-10 z-10 cursor-pointer` : `hidden`
                 }`}
                 size={42}
                 color="#F23A3A"
@@ -60,7 +73,7 @@ export default function Header() {
               <ul
                 className={`${
                   isOpen
-                    ? `flex flex-col gap-8`
+                    ? `flex flex-col gap-8 mt-48`
                     : `hidden md:flex md:flex-row md:gap-12 md:text-14`
                 }  font-comfortaa text-14 lg:text-18 lg:gap-18 font-bold text-brown-600`}
               >
