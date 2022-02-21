@@ -34,6 +34,16 @@ export default function Header() {
           </nav>
 
           <div>
+            {/* TRANSPARENT BLACK BACKGROUND  */}
+            <div
+              className={`${
+                isOpen
+                  ? `w-screen h-screen absolute left-0 top-0 z-0 bg-black-default backdrop-blur-2 bg-opacity-50`
+                  : `hidden`
+              }`}
+            ></div>
+            {/* /TRANSPARENT BLACK BACKGROUND  */}
+
             <FiMenu
               className="inline-block cursor-pointer md:hidden"
               size={24}
