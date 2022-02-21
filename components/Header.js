@@ -60,7 +60,7 @@ export default function Header() {
               <ul
                 className={`${
                   isOpen
-                    ? `flex flex-col gap-8`
+                    ? `flex flex-col gap-8 mt-48`
                     : `hidden md:flex md:flex-row md:gap-12 md:text-14`
                 }  font-comfortaa text-14 lg:text-18 lg:gap-18 font-bold text-brown-600`}
               >
