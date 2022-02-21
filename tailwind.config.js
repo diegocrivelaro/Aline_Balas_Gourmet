@@ -67,7 +67,11 @@ module.exports = {
       "30": "1.875rem",
       "32": "2rem",
     },
-    extend: {},
+    extend: {
+      backdropBlur: {
+        "2": "2px",
+      }
+    },
   },
   plugins: [],
 };
