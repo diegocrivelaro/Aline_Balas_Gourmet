@@ -29,7 +29,7 @@ export default function Header() {
         <div className="container mx-auto px-10 md:px-6 lg:px-0 h-72 flex justify-between items-center">
           <nav>
             <a
-              className="text-shadow-2-2-6 font-dancingscript text-26 select-none md:text-28 lg:text-32 font-bold text-red-400"
+              className="text-shadow-0-4-8-2-6 font-dancingscript text-26 select-none md:text-28 lg:text-32 font-bold text-red-400"
               href="#"
             >
               Aline Balas Gourmet
@@ -77,22 +77,22 @@ export default function Header() {
                     : `hidden md:flex md:flex-row md:gap-12 md:text-14`
                 }  font-comfortaa text-16 lg:text-18 lg:gap-18 font-bold text-brown-600`}
               >
-                <li className="transition duration-500 hover:text-red-200 cursor-pointer">
+                <li className="transition duration-500 text-shadow-0-4-8 hover:text-red-200 cursor-pointer">
                   Home
                 </li>
-                <li className="transition duration-500 hover:text-red-200 cursor-pointer">
+                <li className="transition duration-500 text-shadow-0-4-8 hover:text-red-200 cursor-pointer">
                   Cardápio
                 </li>
-                <li className="transition duration-500 hover:text-red-200 cursor-pointer">
+                <li className="transition duration-500 text-shadow-0-4-8 hover:text-red-200 cursor-pointer">
                   Fotos
                 </li>
-                <li className="transition duration-500 hover:text-red-200 cursor-pointer">
+                <li className="transition duration-500 text-shadow-0-4-8 hover:text-red-200 cursor-pointer">
                   Depoimentos
                 </li>
-                <li className="transition duration-500 hover:text-red-200 cursor-pointer">
+                <li className="transition duration-500 text-shadow-0-4-8 hover:text-red-200 cursor-pointer">
                   Sobre
                 </li>
-                <li className="transition duration-500 hover:text-red-200 cursor-pointer">
+                <li className="transition duration-500 text-shadow-0-4-8 hover:text-red-200 cursor-pointer">
                   Contato
                 </li>
               </ul>
