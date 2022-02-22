@@ -57,7 +57,7 @@ export default function Header() {
             <nav
               className={
                 isOpen
-                  ? `h-screen w-6/12 pl-20 pt-22 shadow-5 bg-brown-200 absolute left-0 top-0`
+                  ? `h-screen w-6/12 pl-20 pt-22 shadow-8-8 bg-brown-200 absolute left-0 top-0`
                   : `inline-block`
               }
             >
