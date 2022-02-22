@@ -25,11 +25,11 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed inset-x-0 bg-brown-200">
+      <header className="fixed inset-x-0 shadow-2-6 bg-brown-200 border-b-2 border-b-brown-600">
         <div className="container mx-auto px-10 md:px-6 lg:px-0 h-72 flex justify-between items-center">
           <nav>
             <a
-              className="font-dancingscript text-26 select-none md:text-28 lg:text-32 font-bold text-red-400"
+              className="text-shadow-4-6 font-dancingscript text-26 select-none md:text-28 lg:text-32 font-bold text-red-400"
               href="#"
             >
               Aline Balas Gourmet
@@ -57,7 +57,7 @@ export default function Header() {
             <nav
               className={
                 isOpen
-                  ? `h-screen w-6/12 pl-20 pt-22 bg-brown-200 absolute left-0 top-0`
+                  ? `h-screen w-6/12 pl-20 pt-22 shadow-5 bg-brown-200 absolute left-0 top-0`
                   : `inline-block`
               }
             >
@@ -99,7 +99,6 @@ export default function Header() {
             </nav>
           </div>
         </div>
-        <hr />
       </header>
     </>
   );
