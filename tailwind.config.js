@@ -74,6 +74,7 @@ module.exports = {
       },
       boxShadow: {
         "2-6": "0px 2px 6px rgba(0, 0, 0, 0.2)",
+        "0-6": "4px 0px 6px rgba(0, 0, 0, 0.2)",
       }
     },
   },
