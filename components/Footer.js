@@ -9,7 +9,7 @@ export default function Footer() {
             {/* LOGO AND SOCIAL NETWORKS */}
             <nav className="flex flex-col gap-10 items-center mb-22">
               <a
-                className="font-dancingscript text-26 md:text-28 lg:text-30 select-none font-bold text-white-default"
+                className="font-dancingscript text-26 md:text-28 lg:text-30 select-none font-bold text-white-default text-shadow-0-4-8"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
