@@ -73,7 +73,7 @@ export default function Footer() {
 
         <div className="flex justify-center items-center w-screen h-34 bg-red-400">
           <a
-            className=" font-poppins text-14 md:text-16 font-normal text-white-default"
+            className="font-poppins text-14 md:text-16 font-normal text-white-default"
             href="https://www.linkedin.com/in/diegocrivelaro/"
             target="_blank"
             rel="noopener noreferrer"
