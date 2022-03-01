@@ -6,6 +6,28 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <link
+            rel="icon"
+            href="/static/images/icons/favicon.ico"
+            type="image/x-icon"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/images/icons/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/images/icons/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/images/icons/favicon-16x16.png"
+          />
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#FFF9EF" />
         </Head>
