@@ -54,14 +54,14 @@ export default function Footer() {
 
             <div className="flex flex-col items-center justify-center gap-2">
               <a
-                className="font-poppins text-14 md:text-16 font-normal transition duration-200 hover:text-white-default hover:text-opacity-80 text-white-default"
+                className="font-poppins text-14 md:text-16 font-normal transition duration-400 hover:text-white-default hover:text-opacity-80 text-white-default"
                 href="#"
                 rel="noopener noreferrer"
               >
                 Politica de Privacidade
               </a>
               <a
-                className="font-poppins text-14 md:text-16 font-normal transition duration-200 hover:text-white-default hover:text-opacity-80 text-white-default"
+                className="font-poppins text-14 md:text-16 font-normal transition duration-400 hover:text-white-default hover:text-opacity-80 text-white-default"
                 href="#"
                 rel="noopener noreferrer"
               >
