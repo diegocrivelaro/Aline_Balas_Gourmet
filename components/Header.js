@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <>
       <header className="fixed inset-x-0 z-50 shadow-2-6 bg-brown-200 border-b-2 border-b-brown-600">
-        <div className="container mx-auto px-10 md:px-6 lg:px-0 h-72 flex justify-between items-center">
+        <div className="container mx-auto px-10 h-72 flex justify-between items-center">
           <nav>
             <a
               className="text-shadow-0-4-8-2-6 font-dancingscript text-26 select-none md:text-28 lg:text-32 font-bold text-red-400"
