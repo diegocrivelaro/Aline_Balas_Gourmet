@@ -17,7 +17,7 @@ export default function Footer() {
                 Aline Balas Gourmet
               </a>
 
-              <div className="flex justify-center items-center gap-18 px-12 py-10 rounded-full bg-brown-300">
+              <div className="flex justify-center items-center gap-18 px-12 py-10 rounded-full bg-brown-300 shadow-2-8">
                 <a
                   href="https://api.whatsapp.com/send?phone=5516993070022&text=Ol%C3%A1%2C%20Aline!"
                   target="_blank"
