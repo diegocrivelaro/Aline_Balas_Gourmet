@@ -79,7 +79,7 @@ module.exports = {
       boxShadow: {
         "2-6": "0px 2px 6px rgba(0, 0, 0, 0.2)",
         "8-8": "8px 0px 8px rgba(0, 0, 0, 0.2)",
-        "2-8": "0px 2px 8px rgba(0, 0, 0, 0.2)", // Footer
+        "2-8": "0px 2px 8px rgba(0, 0, 0, 0.1)", // Footer
       }
     },
   },
