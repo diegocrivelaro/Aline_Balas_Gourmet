@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed inset-x-0 shadow-2-6 bg-brown-200 border-b-2 border-b-brown-600">
+      <header className="fixed inset-x-0 z-50 shadow-2-6 bg-brown-200 border-b-2 border-b-brown-600">
         <div className="container mx-auto px-10 md:px-6 lg:px-0 h-72 flex justify-between items-center">
           <nav>
             <a
@@ -57,7 +57,7 @@ export default function Header() {
             <nav
               className={
                 isOpen
-                  ? `h-screen w-6/12 pl-20 pt-22 shadow-8-8 bg-brown-200 absolute z-50 left-0 top-0 slide-right`
+                  ? `h-screen w-6/12 pl-20 pt-22 shadow-8-8 bg-brown-200 absolute left-0 top-0 slide-right`
                   : `inline-block`
               }
             >
