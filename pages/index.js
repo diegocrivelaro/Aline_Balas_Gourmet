@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import MetaTags from '../components/MetaTags';
 
@@ -11,6 +12,7 @@ export default function Home() {
         image="/static/images/logo/alinebalasgourmet_logo.svg"
       >
         <Header />
+        <Footer />
       </MetaTags>
     </>
   );
