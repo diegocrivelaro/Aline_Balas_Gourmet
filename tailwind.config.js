@@ -26,6 +26,10 @@ module.exports = {
         400: "#FF86D1",
         600: "#EB56AD",
       },
+      green: {
+        400: "rgba(0, 230, 118, 0.75)",
+        500: "#00E676",
+      },
     },
     fontFamily: {
       dancingscript: ["Dancing Script", "cursive", "system-ui", "-apple-system"],
@@ -56,6 +60,17 @@ module.exports = {
       "40": "2.5rem",
       "42": "2.625rem",
       "48": "3rem",
+      "50": "3.125rem",
+      "52": "3.25rem",
+      "54": "3.375rem",
+      "56": "3.5rem",
+      "58": "3.625rem",
+      "60": "3.75rem",
+      "62": "3.875rem",
+      "64": "4rem",
+      "66": "4.125rem",
+      "68": "4.25rem",
+      "70": "4.375rem",
       "72": "4.5rem",
       "96": "6rem",
     },
@@ -79,7 +94,7 @@ module.exports = {
       boxShadow: {
         "2-6": "0px 2px 6px rgba(0, 0, 0, 0.2)",
         "8-8": "8px 0px 8px rgba(0, 0, 0, 0.2)",
-        "2-8": "0px 2px 8px rgba(0, 0, 0, 0.1)", // Footer
+        "btn-whatsapp": "0px 0px 10px rgba(0, 230, 118, 0.45)",
       }
     },
   },

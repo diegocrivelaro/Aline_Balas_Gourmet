@@ -1,0 +1,14 @@
+/**
+ * ----------------------------------------
+ * floating animation
+ * ----------------------------------------
+*/
+.btn-whatsapp-floating {
+  animation: floating 2s ease-in-out alternate infinite;
+}
+
+@keyframes floating {
+  to {
+    transform: translateY(2px);
+  }
+}

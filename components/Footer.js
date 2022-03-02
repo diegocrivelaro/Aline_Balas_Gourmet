@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 export default function Footer() {
   return (
     <>
-      <footer className="w-screen absolute bottom-0">
+      <footer className="w-screen">
         <div className="bg-red-200 py-16">
           <div className="container mx-auto flex flex-col sm:flex-row sm:justify-between sm:items-center sm:px-10">
             {/* LOGO AND SOCIAL NETWORKS */}
