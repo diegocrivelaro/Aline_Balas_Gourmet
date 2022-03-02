@@ -22,6 +22,10 @@ module.exports = {
         400: "#FF86D1",
         600: "#EB56AD",
       },
+      green: {
+        400: "rgba(0, 230, 118, 0.75)",
+        500: "#00E676",
+      },
     },
     fontFamily: {
       dancingscript: ["Dancing Script", "cursive", "system-ui", "-apple-system"],
