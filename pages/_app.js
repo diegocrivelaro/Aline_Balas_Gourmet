@@ -1,3 +1,4 @@
+import '../styles/btnwhatsapp.css';
 import '../styles/globals.css';
 import '../styles/header.css';
 
