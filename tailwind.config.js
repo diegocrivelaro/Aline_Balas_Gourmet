@@ -90,6 +90,7 @@ module.exports = {
       boxShadow: {
         "2-6": "0px 2px 6px rgba(0, 0, 0, 0.2)",
         "8-8": "8px 0px 8px rgba(0, 0, 0, 0.2)",
+        "btn-whatsapp": "0px 0px 10px rgba(0, 230, 118, 0.45)",
       }
     },
   },
