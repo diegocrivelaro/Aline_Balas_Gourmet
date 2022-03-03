@@ -11,6 +11,10 @@ module.exports = {
       white: {
         default: "#fff",
       },
+      gray: {
+        100: "rgba(118, 110, 110, 0,25)",
+        400: "#766E6E",
+      },
       brown: {
         200: "#FFF9EF",
         300: "#C17A76",
