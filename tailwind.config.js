@@ -78,7 +78,12 @@ module.exports = {
       "72": "4.5rem",
       "96": "6rem",
       "450": "28.125rem",
-      "556": "35.375rem",
+      "556": "34.75rem",
+    },
+    fontFamily: {
+      dancingscript: ["Dancing Script", "cursive", "system-ui", "-apple-system"],
+      poppins: ["Poppins", "sans-serif", "system-ui", "-apple-system"],
+      comfortaa: ["Comfortaa", "monospace", "sans-serif", "system-ui", "-apple-system"],
     },
     fontSize: {
       "4": "0.25rem",
@@ -94,14 +99,17 @@ module.exports = {
       "32": "2rem",
     },
     extend: {
-      backdropBlur: {
-        "2": "2px",
+      borderRadius: {
+        "36": "2.25rem",
       },
       boxShadow: {
         "2-6": "0px 2px 6px rgba(0, 0, 0, 0.2)",
         "8-8": "8px 0px 8px rgba(0, 0, 0, 0.2)",
         "btn-whatsapp": "0px 0px 10px rgba(0, 230, 118, 0.45)",
-      }
+      },
+      backdropBlur: {
+        "2": "2px",
+      },
     },
   },
   plugins: [],
