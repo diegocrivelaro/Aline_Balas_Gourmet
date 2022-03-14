@@ -12,7 +12,7 @@ module.exports = {
         default: "#fff",
       },
       gray: {
-        100: "rgba(118, 110, 110, 0,25)",
+        100: "rgba(118, 110, 110, 0.25)",
         400: "#766E6E",
       },
       brown: {
