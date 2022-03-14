@@ -35,11 +35,6 @@ module.exports = {
         500: "#00E676",
       },
     },
-    fontFamily: {
-      dancingscript: ["Dancing Script", "cursive", "system-ui", "-apple-system"],
-      poppins: ["Poppins", "sans-serif", "system-ui", "-apple-system"],
-      comfortaa: ["Comfortaa", "monospace", "sans-serif", "system-ui", "-apple-system"],
-    },
     spacing: {
       "0": "0rem",
       "2": "0.125rem",
