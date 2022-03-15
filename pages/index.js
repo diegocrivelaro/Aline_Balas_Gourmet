@@ -1,6 +1,7 @@
 import Btnwhatsapp from '../components/Btnwhatsapp';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Main from '../components/Main';
 import MetaTags from '../components/MetaTags';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         image="/static/images/logo/alinebalasgourmet_logo.svg"
       >
         <Header />
+        <Main linkOrder="#" />
         <Btnwhatsapp />
         <Footer />
       </MetaTags>
