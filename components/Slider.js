@@ -22,7 +22,7 @@ export default function Slider() {
 
   return (
     <>
-      <div className="relative flex justify-center items-center w-556 h-450">
+      <div className="relative flex justify-center items-center w-364 h-346 sm:w-556 sm:h-450">
         {SliderData.map((image, index) => {
           return (
             <div
@@ -35,7 +35,7 @@ export default function Slider() {
             >
               {index === SlideIndex && (
                 <img
-                  className="w-full h-full object-cover rounded-36"
+                  className="w-full h-full object-cover rounded-lg border-2 border-brown-600 sm:rounded-36 sm:border-0 sm:border-none"
                   src={image.src}
                   alt={image.alt}
                 />
@@ -47,13 +47,13 @@ export default function Slider() {
           className="w-40 h-40 flex justify-center items-center absolute top-1/2 left-6 -translate-y-1/2 select-none bg-gray-200 rounded-full"
           onClick={prevSlide}
         >
-          <AiOutlineArrowLeft className="w-34 h-34 text-white-default" />
+          <AiOutlineArrowLeft className="w-30 h-30 sm:w-34 sm:h-34 text-white-default" />
         </button>
         <button
           className="w-40 h-40 flex justify-center items-center absolute top-1/2 right-6 -translate-y-1/2 select-none bg-gray-200 rounded-full"
           onClick={nextSlide}
         >
-          <AiOutlineArrowRight className="w-34 h-34 text-white-default" />
+          <AiOutlineArrowRight className="w-30 h-30 sm:w-34 sm:h-34 text-white-default" />
         </button>
       </div>
     </>
