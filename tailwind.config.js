@@ -78,6 +78,7 @@ module.exports = {
       364: '22.75rem',
       450: '28.125rem',
       556: '34.75rem',
+      '90%': '90%',
     },
     fontFamily: {
       dancingscript: [
@@ -116,6 +117,11 @@ module.exports = {
         '2-6': '0px 2px 6px rgba(0, 0, 0, 0.2)',
         '8-8': '8px 0px 8px rgba(0, 0, 0, 0.2)',
         'btn-whatsapp': '0px 0px 10px rgba(0, 230, 118, 0.45)',
+        'slider': '0px 0px 12px rgba(0, 0, 0, 0.2)',
+      },
+      dropShadow: {
+        'h1': '0px 6px 4px rgba(0, 0, 0, .1)',
+        'btn-request': '0px 0px 6px rgba(0, 0, 0, .2)',
       },
       backdropBlur: {
         2: '2px',
