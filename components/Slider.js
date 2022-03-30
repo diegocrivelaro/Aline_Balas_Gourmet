@@ -7,9 +7,9 @@ import { SliderData } from './SliderData';
 export default function Slider() {
   return (
     <>
-      <div className="w-364 h-346 sm:w-556 sm:h-450 rounded-lg border-2 border-brown-600 sm:rounded-36 sm:border-0 sm:border-none">
+      <div className="w-90% h-346 sm:w-3/4 sm:h-346 md:w-556 md:h-450 ">
         <Swiper
-          className="w-full h-full"
+          className="w-full h-full shadow-slider rounded-lg border-2 border-brown-600 md:rounded-36 md:border-0 md:border-none"
           slidePerView={1}
           spaceBetween={0}
           navigation={true}
@@ -23,7 +23,7 @@ export default function Slider() {
             return (
               <SwiperSlide>
                 <img
-                  className="w-full h-full object-cover rounded-lg sm:rounded-36"
+                  className="w-full h-full object-cover md:rounded-36"
                   src={image.src}
                   alt={image.alt}
                 />
