@@ -11,7 +11,7 @@ export default function Slider() {
         <Swiper
           className="w-full h-full"
           slidePerView={1}
-          spaceBetween={10}
+          spaceBetween={0}
           navigation={true}
           autoplay={{
             delay: 10000,
