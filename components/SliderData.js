@@ -2,7 +2,7 @@ export const SliderData = [
   {
     key: 0,
     src: '/static/logo/logo.webp',
-    alt: 'Slide da logo',
+    alt: 'Logo da empresa Aline Balas Gourmet. Uma logo contendo uma moldura ondulada e delicado, com flores em cima e em baixo da moldura. No centro da moldura possuí um texto da marca "Aline Balas Gourmet". ',
   },
   {
     key: 1,
