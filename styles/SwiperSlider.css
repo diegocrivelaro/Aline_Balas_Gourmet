@@ -1,31 +1,32 @@
 .swiper-button-next,
 .swiper-button-prev {
-  padding: 30px;
-  border-radius: 50%;
-  font-weight: 900;
-  color: #fff;
-  --swiper-theme-color: #fff;
-  background-color: rgba(118, 110, 100, 70%);
+  --swiper-theme-color: #fff !important;
+  width: 2.375rem !important;
+  height: 2.375rem !important;
+  margin-top: -19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+  background-color: rgba(118, 110, 100, 70%) !important;
 }
 
-.swiper-button-next::after {
-  left: 0 !important;
-  right: 0 !important;
+.swiper-button-disabled {
+  opacity: 0.6 !important;
 }
 
+.swiper-button-next::after,
 .swiper-button-prev::after {
-  left: 0 !important;
-  right: 0 !important;
+  font-size: 24px !important;
+  font-weight: 900 !important;
 }
 
 @media screen and (max-width: 767px) {
   .swiper-button-next,
   .swiper-button-prev {
-    visibility: hidden;
+    visibility: hidden !important;
   }
 
   .swiper-button-next::after,
   .swiper-button-prev::after {
-    display: none;
+    display: none !important;
   }
 }
