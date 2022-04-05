@@ -23,7 +23,7 @@ export default function Slider() {
             return (
               <SwiperSlide>
                 <img
-                  className="w-full h-full object-cover md:rounded-36"
+                  className="w-full h-full object-cover"
                   src={image.src}
                   alt={image.alt}
                 />
